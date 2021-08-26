@@ -3,7 +3,6 @@ package me.silvernine.jwttutorial.service;
 import java.util.Collections;
 import java.util.Optional;
 
-import javassist.bytecode.DuplicateMemberException;
 import lombok.RequiredArgsConstructor;
 import me.silvernine.jwttutorial.dto.UserDto;
 import me.silvernine.jwttutorial.entity.Authority;

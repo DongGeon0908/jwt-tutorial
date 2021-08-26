@@ -21,7 +21,7 @@ public class UserController {
         return ResponseEntity.ok("hello");
     }
 
-    @PostMapping("/signup")
+    @PostMapping("/sign")
     public ResponseEntity<User> signup(
             @Valid @RequestBody UserDto userDto
     ) {

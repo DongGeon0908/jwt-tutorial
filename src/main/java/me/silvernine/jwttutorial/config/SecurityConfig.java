@@ -5,7 +5,6 @@ import me.silvernine.jwttutorial.jwt.JwtAccessDeniedHandler;
 import me.silvernine.jwttutorial.jwt.JwtAuthenticationEntryPoint;
 import me.silvernine.jwttutorial.jwt.JwtSecurityConfig;
 import me.silvernine.jwttutorial.jwt.TokenProvider;
-import org.apache.catalina.filters.CorsFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -15,7 +14,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
